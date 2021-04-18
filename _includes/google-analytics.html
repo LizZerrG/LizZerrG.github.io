@@ -1,0 +1,26 @@
+<!--
+  The GA snippet
+-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script defer src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics.id }}"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+
+    // Default ad_storage to 'denied'.
+    gtag('consent', 'default', {
+      'ad_storage': 'denied',
+      'analytics_storage': 'denied'
+    });
+
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics.id }}');
+
+    function consentGranted() {
+      gtag('consent', 'update', {
+        'analytics_storage': 'granted'
+      });
+    }
+  });
+</script>
