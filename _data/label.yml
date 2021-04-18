@@ -1,18 +1,18 @@
 # The label text of site.
 
 panel:
-  lastmod: Recent Update
+  lastmod: Laatste wijziging
   trending_tags: Trending Tags
-  toc: Contents
+  toc: Inhoud
 
 post:
-  relate_posts: Further Reading
-  share: Share
+  relate_posts: Lees ook
+  share: Delen
   button:
-    next: Newer
-    previous: Older
+    next: Nieuwer
+    previous: Ouder
 
-search_hint: Search   # text show on search bar
+search_hint: Zoeken   # text show on search bar
 
 pin_prompt: Pinned    # pinned prompt
 
