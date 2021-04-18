@@ -14,7 +14,7 @@ timezone: Europe/Amsterdam
 # --------------------------
 title: Mellissa.dev                    # the main title
 
-tagline: My personal website           # it will display as the sub-title
+tagline: "WIP: My personal website"    # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Nothing special, YET.
@@ -22,24 +22,11 @@ description: >-                        # used by seo meta and the atom feed
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://lizzerrg.github.io'
 
-github:
-  username: lizzerrg                   # change to your github username
-
-twitter:
-  username: lizzerrg                   # change to your twitter username
-
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Mellissa Geutskens
-  email: ''                            # change to your email address
-  links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/lizzerrg      # change to your twitter homepage
-    - https://github.com/lizzerrg       # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+  copyright: 'https://github.com/lizzerrg'
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 # --------------------------

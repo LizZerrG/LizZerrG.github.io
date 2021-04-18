@@ -3,9 +3,11 @@
 -
   type: github
   icon: 'fab fa-github-alt'
+  url: 'https://github.com/lizzerrg'
 -
   type: twitter
   icon: 'fab fa-twitter'
+  url: 'https://twitter.com/lizzerrg'
 -
   type: linkedin
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
