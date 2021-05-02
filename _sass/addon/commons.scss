@@ -52,6 +52,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.text-muted {
+  color: var(--text-muted-color) !important;
+}
+
 /* --- Typography --- */
 
 h1 {
@@ -356,10 +360,6 @@ footer {
     &:hover {
       @extend %link-hover;
     }
-  }
-
-  .text-muted {
-    color: var(--text-muted-color) !important;
   }
 }
 
